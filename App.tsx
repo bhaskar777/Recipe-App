@@ -1,14 +1,8 @@
-import {Text, View} from 'react-native';
 import React from 'react';
-import Config from 'react-native-config';
+import Routes from './src/Routes';
 
 const App = () => {
-  console.log('ppp--', Config.MY_TESTING_KEY);
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  );
+  return <Routes />;
 };
 
 export default App;
